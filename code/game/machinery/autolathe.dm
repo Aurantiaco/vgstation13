@@ -105,6 +105,7 @@
 		new /obj/item/device/rcd/tile_painter(), \
 		new /obj/item/device/rcd/matter/rsf(), \
 		new /obj/item/device/destTagger, \
+		new /obj/item/weapon/storage/toolbox/mechanical/empty(), \
 
 		),
 		"Misc_Other"=list(

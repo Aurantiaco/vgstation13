@@ -75,6 +75,10 @@
 	new /obj/item/device/analyzer(src)
 	new /obj/item/weapon/wirecutters(src)
 
+	/obj/item/weapon/storage/toolbox/mechanical/empty/New()
+	..()
+	src.contents.Cut()
+
 /obj/item/weapon/storage/toolbox/electrical
 	name = "electrical toolbox"
 	icon_state = "yellow"
